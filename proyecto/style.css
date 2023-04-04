@@ -113,6 +113,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #e9edc9;
+        transition: transform 0.2s ease-in ;
     ;
     }
     
@@ -125,6 +127,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #e9edc9;
+        transition: transform 0.2s ease-in ;
     }
     
     .main__modulo3{
@@ -136,6 +140,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #e9edc9;
+        transition: transform 0.2s ease-in ;
     }
     
     .main__modulo4{
@@ -147,6 +153,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #e9edc9;
+        transition: transform 0.2s ease-in ;
     }
     
     .main__modulo5{
@@ -158,7 +166,35 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #e9edc9;
+        transition: transform 0.2s ease-in ;
     }
+
+    .main__modulo1:hover{
+        transform: scale(1.5);
+    }
+    .main__modulo2:hover{
+        transform: scale(1.5);
+    }
+    .main__modulo3:hover{
+        transform: scale(1.4);
+    }
+    .main__modulo4:hover{
+        transform: scale(1.5);
+    }
+    .main__modulo5:hover{
+        transform: scale(1.5);
+    }
+
+    .main__modulos__anchor{
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        color: #6b705c;
+        font-weight: bold;
+    }
+
+
+    
     
     /* FOOTER */
     
