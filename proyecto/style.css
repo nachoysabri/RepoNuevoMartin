@@ -35,19 +35,23 @@
     
     /* HEADER */
     
-    .header__logo__div{
+    .header{
         padding: 1rem;
         display: flex;
         justify-content: space-between;
         background-color: #e9edc9;
-        padding-left: 2rem 
+        padding-left: 2rem ;
     }
     
+    .header__logo__div{
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header__logo__div:hover{
+        transform: scale(1.2);
+    }
     .header__logo{
         width: 3rem;
-        ;
-        
-        
     }
 
     .header__titulo{
