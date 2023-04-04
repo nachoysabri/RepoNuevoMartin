@@ -25,6 +25,13 @@
         display: flex;
         justify-content: center;
     }
+
+    .flexColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     /* HEADER */
     
@@ -32,19 +39,38 @@
         padding: 1rem;
         display: flex;
         justify-content: space-between;
-        
+        background-color: #e9edc9;
+        padding-left: 2rem 
     }
     
     .header__logo{
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        ;
         
+        
+    }
+
+    .header__titulo{
+        font-family: 'Nunito', sans-serif;
+        color: #6b705c;
+        font-weight: bold;
     }
     
     .header__redesSociales{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+    }
+
+    .header__redesSociales__logo{
+        width: 3rem;
+        border-radius: 2rem;
+        padding: 5px ;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header__redesSociales__logo:hover{
+        transform: scale(1.2);
     }
     
     
