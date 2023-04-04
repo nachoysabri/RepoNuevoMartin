@@ -1,0 +1,133 @@
+    .centerAll{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .navBar{
+        display: flex;
+        justify-content: start;
+        
+    }
+    
+    .Nav__img{
+        width: 10rem;
+        height: 10rem;
+        padding-left:10rem ;
+    }
+    
+    .border{
+        border: black solid 1px;
+    }
+    
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* HEADER */
+    
+    .header__logo__div{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .header__logo{
+        width: 5rem;
+        height: 5rem;
+        
+    }
+    
+    .header__redesSociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    
+    
+    
+    /* MAIN */
+    
+    .main__quienesSomos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 2rem;
+    }
+    
+    .main__modulo__contenedor{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10rem;
+        
+    }
+    
+    .main__modulo1{
+        border: 1px black solid;
+        border-radius: 0.4rem;
+        width: 7rem;
+        height: 5rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    ;
+    }
+    
+    .main__modulo2{
+        border: 1px black solid;
+        border-radius: 0.4rem;
+        width: 7rem;
+        height: 5rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main__modulo3{
+        border: 1px black solid;
+        border-radius: 0.4rem;
+        width: 9rem;
+        height: 8rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main__modulo4{
+        border: 1px black solid;
+        border-radius: 0.4rem;
+        width: 7rem;
+        height: 5rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main__modulo5{
+        border: 1px black solid;
+        border-radius: 0.4rem;
+        width: 7rem;
+        height: 5rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* FOOTER */
+    
+    .footer__contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5rem;
+    }
