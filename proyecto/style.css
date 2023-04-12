@@ -201,8 +201,9 @@
     .footer__contenedor{
         background: linear-gradient(to right, #feaa14 0%,#09959b 50%,#207cca 100%,#01385f 100%);
         display: flex;
-        justify-content:space-evenly;
-        align-items:center;
+        justify-content:space-around;
+        align-items: center;
+        position: relative;
         padding-top: 3rem;
         padding-bottom: 3rem;
 
