@@ -41,14 +41,14 @@
     /* HEADER */
     
     .header{
-        padding: 1rem;
         display: flex;
         justify-content: space-between;
-        background-color: #e9edc9;
-        padding-left: 2rem ;
+        background-color: #EDE5D1;
+        height: fit-content;
     }
     
     .header__logo__div{
+        padding-top: 2rem;
         transition: transform 0.3s ease-in-out;
     }
 
@@ -56,19 +56,20 @@
         transform: scale(1.2);
     }
     .header__logo{
-        width: 3rem;
+        width: 7rem;
     }
 
     .header__titulo{
         font-family: 'Nunito', sans-serif;
-        color: #6b705c;
-        font-weight: bold;
+        color: #09959B;
+        font-weight: 900;
     }
     
     .header__redesSociales{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        padding-bottom: 5rem ;
     }
 
     .header__redesSociales__logo{
@@ -82,7 +83,14 @@
         transform: scale(1.2);
     }
     
-    
+    .header__imagen__principal{
+        gap:2rem
+    }
+
+    .logoPrincipal{
+        width: 5rm;
+        height: 5rem;
+    }
     
     
     /* MAIN */
@@ -103,77 +111,85 @@
         padding-top: 10rem;
         
     }
+    .main__modulos__anchor:visited {
+        color: #6b705c; 
+    }
     
     .main__modulo1{
         border: 1px black solid;
-        border-radius: 0.4rem;
+        border-radius: 5rem;
         width: 7rem;
         height: 5rem;
         align-content: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #e9edc9;
+        background-color: #EDE5D1;
         transition: transform 0.2s ease-in ;
+        color: #09959B;
+
+
     ;
     }
     
     .main__modulo2{
         border: 1px black solid;
-        border-radius: 0.4rem;
+        border-radius: 5rem;
         width: 7rem;
         height: 5rem;
         align-content: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #e9edc9;
+        background-color: #EDE5D1;
         transition: transform 0.2s ease-in ;
     }
     
     .main__modulo3{
         border: 1px black solid;
-        border-radius: 0.4rem;
+        border-radius: 5rem;
         width: 9rem;
         height: 8rem;
         align-content: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #e9edc9;
+        background-color: #EDE5D1;
         transition: transform 0.2s ease-in ;
     }
-    
+
+
     .main__modulo4{
         border: 1px black solid;
-        border-radius: 0.4rem;
+        border-radius: 5rem;
         width: 7rem;
         height: 5rem;
         align-content: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #e9edc9;
+        background-color: #EDE5D1;
         transition: transform 0.2s ease-in ;
     }
     
     .main__modulo5{
         border: 1px black solid;
-        border-radius: 0.4rem;
+        border-radius: 5rem;
         width: 7rem;
         height: 5rem;
         align-content: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #e9edc9;
+        background-color: #EDE5D1;
         transition: transform 0.2s ease-in ;
     }
 
     .main__modulo1:hover{
         transform: scale(1.5);
+        color: #09959B;
     }
-    .main__modulo2:hover{
+        .main__modulo2:hover{
         transform: scale(1.5);
     }
     .main__modulo3:hover{
@@ -190,7 +206,7 @@
         text-decoration: none;
         font-family: 'Nunito', sans-serif;
         color: #6b705c;
-        font-weight: bold;
+        font-weight: 900;
     }
 
 
