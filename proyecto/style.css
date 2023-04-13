@@ -42,13 +42,13 @@
     
     .header{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: #EDE5D1;
         height: fit-content;
+        align-items: center
     }
     
     .header__logo__div{
-        padding-top: 2rem;
         transition: transform 0.3s ease-in-out;
     }
 
@@ -60,16 +60,19 @@
     }
 
     .header__titulo{
-        font-family: 'Nunito', sans-serif;
+        /* font-family: 'Nunito', sans-serif; */
         color: #09959B;
-        font-weight: 900;
+        font-family: 'Alegreya', serif;
+        font-weight: 500;
     }
     
     .header__redesSociales{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        padding-bottom: 5rem ;
+        padding-bottom: 3rem ;
+        padding-right: 3.5rem;
+        padding-top: 1rem;
     }
 
     .header__redesSociales__logo{
@@ -94,21 +97,29 @@
     
     /* MAIN */
     main{
-        padding-bottom:2rem ;
+        padding-bottom:8rem ;
+        background-image: url("https://i.ibb.co/WcLSFg6/a3362e7578ea3ab65694f00ff585a362.jpg");
     }
-    .main__quienesSomos{
+    .main__quienesSomos {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 3rem;
         gap: 2rem;
+        font-family: 'Nunito';
+        font-weight: bold;
+        line-height: 43px;
+    }
+    
+    .main__quienesSomos__titulo{
+        font-size: 1.5rem;
     }
     
     .main__modulo__contenedor{
         display: flex;
-        justify-content: space-around;
-        padding-top: 10rem;
-        
+        justify-content: space-evenly;
+        padding-top: 5rem;
+        height: 10rem;
     }
     .main__modulos__anchor:visited {
         color: #6b705c; 
@@ -124,7 +135,7 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #EDE5D1;
-        transition: transform 0.2s ease-in ;
+        transition: transform 0.3s ease-in ;
         color: #09959B;
 
 
@@ -141,7 +152,7 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #EDE5D1;
-        transition: transform 0.2s ease-in ;
+        transition: transform 0.3s ease-in ;
     }
     
     .main__modulo3{
@@ -154,7 +165,7 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #EDE5D1;
-        transition: transform 0.2s ease-in ;
+        transition: transform 0.3s ease-in ;
     }
 
 
@@ -168,7 +179,7 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #EDE5D1;
-        transition: transform 0.2s ease-in ;
+        transition: transform 0.3s ease-in ;
     }
     
     .main__modulo5{
@@ -181,24 +192,24 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #EDE5D1;
-        transition: transform 0.2s ease-in ;
+        transition: transform 0.3s ease-in ;
     }
 
     .main__modulo1:hover{
-        transform: scale(1.5);
+        transform: scale(1.2);
         color: #09959B;
     }
         .main__modulo2:hover{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     .main__modulo3:hover{
-        transform: scale(1.4);
+        transform: scale(1.3);
     }
     .main__modulo4:hover{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     .main__modulo5:hover{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 
     .main__modulos__anchor{
@@ -214,12 +225,39 @@
     /* FOOTER */
     
     .footer__contenedor{
-        background: linear-gradient(to right, #feaa14 0%,#09959b 50%,#207cca 100%,#01385f 100%);
+        background-color: #d7d3b0;
         display: flex;
         justify-content:space-around;
         align-items: center;
         position: relative;
         padding-top: 3rem;
         padding-bottom: 3rem;
+        font-family: 'Montserrat Alternates', sans-serif;
 
+
+    }
+
+    .footer__hijo{
+        padding: 10px;
+    }
+
+    .footer__redesSociales{
+        display: flex;
+        flex-direction: row;
+        align-content: end;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        height: 0rem;
+    }
+
+    .footer__redesSociales__logo{
+        width: 3rem;
+        border-radius: 2rem;
+        padding: 5px ;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .footer__redesSociales__logo:hover{
+        transform: scale(1.2);
     }
