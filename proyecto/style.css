@@ -53,10 +53,10 @@
     }
 
     .header__logo__div:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .header__logo{
-        width: 7rem;
+        width: 14rem;
     }
 
     .header__titulo{
@@ -71,7 +71,7 @@
         flex-direction: column;
         justify-content: flex-end;
         padding-bottom: 3rem ;
-        padding-right: 3.5rem;
+        padding-right: 8.5rem;
         padding-top: 1rem;
     }
 
@@ -98,12 +98,15 @@
     /* MAIN */
     main{
         padding-bottom:8rem ;
-        background-image: url("https://i.ibb.co/WcLSFg6/a3362e7578ea3ab65694f00ff585a362.jpg");
+        /* background-image: url("https://i.ibb.co/WcLSFg6/a3362e7578ea3ab65694f00ff585a362.jpg"); */
+        background-image: url("./img/fondo12.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
     }
     .main__quienesSomos {
         display: flex;
         flex-direction: column;
-        align-items: center;
         padding-top: 3rem;
         gap: 2rem;
         font-family: 'Nunito';
@@ -113,20 +116,22 @@
     
     .main__quienesSomos__titulo{
         font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
     }
     
     .main__modulo__contenedor{
         display: flex;
-        justify-content: space-evenly;
-        padding-top: 5rem;
-        height: 10rem;
+        justify-content: center;
+        height: 8rem;
+        gap: 5rem;
     }
     .main__modulos__anchor:visited {
-        color: #6b705c; 
+        color: #09959B; 
     }
     
     .main__modulo1{
-        border: 1px black solid;
+        border: 2px #09959B solid;
         border-radius: 5rem;
         width: 7rem;
         height: 5rem;
@@ -143,7 +148,7 @@
     }
     
     .main__modulo2{
-        border: 1px black solid;
+        border: 2px #09959B solid;
         border-radius: 5rem;
         width: 7rem;
         height: 5rem;
@@ -156,7 +161,7 @@
     }
     
     .main__modulo3{
-        border: 1px black solid;
+        border: 2px #09959B solid;
         border-radius: 5rem;
         width: 9rem;
         height: 8rem;
@@ -168,9 +173,13 @@
         transition: transform 0.3s ease-in ;
     }
 
+    .ModuloPrincipalLogo{
+        width: 4rem;
+    }
+
 
     .main__modulo4{
-        border: 1px black solid;
+        border: 2px #09959B solid;
         border-radius: 5rem;
         width: 7rem;
         height: 5rem;
@@ -183,7 +192,7 @@
     }
     
     .main__modulo5{
-        border: 1px black solid;
+        border: 2px #09959B solid;
         border-radius: 5rem;
         width: 7rem;
         height: 5rem;
@@ -196,20 +205,20 @@
     }
 
     .main__modulo1:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
         color: #09959B;
     }
         .main__modulo2:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .main__modulo3:hover{
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
     .main__modulo4:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .main__modulo5:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
     .main__modulos__anchor{
@@ -219,7 +228,14 @@
         font-weight: 900;
     }
 
+    .main__descripcion{
+        text-align: justify;
+    }
 
+    .main__imagenSaludable{
+        display: flex;
+        justify-content: center;
+    }
     
     
     /* FOOTER */
@@ -233,6 +249,7 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
         font-family: 'Montserrat Alternates', sans-serif;
+        
 
 
     }
@@ -241,13 +258,15 @@
         padding: 10px;
     }
 
+    
+
     .footer__redesSociales{
         display: flex;
         flex-direction: row;
         align-content: end;
         justify-content: flex-end;
-        padding-right: 1rem;
-        padding-top: 1rem;
+        padding-right: 3rem;
+        padding-top: 8rem;
         height: 0rem;
     }
 
