@@ -236,6 +236,16 @@
         display: flex;
         justify-content: center;
     }
+
+    .main__carrousel{
+
+    }
+
+    .main__carrousel__item{
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+    }
     
     
     /* FOOTER */
