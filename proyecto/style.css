@@ -42,13 +42,30 @@
     .header {
         display: flex;
         justify-content: space-around;
+        background-image: url('https://i.ibb.co/4PvPVsm/photo-1605446486353-ec4bf48d4ca2-ixlib-rb-4-0.jpg');
+        background-size: cover;
+        background-position: center 35%;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+    }
+
+    .header__contenedores {
+
+        opacity: 0.9;
+        padding: 0.5rem;
+
+    }
+
+    .header__contenedores1 {
         background-color: #EDE5D1;
-        height: fit-content;
-        align-items: center
+        border-radius: 1.5rem;
+        opacity: 0.9;
+        padding: 0.5rem;
     }
 
     .header__logo__div {
         transition: transform 0.3s ease-in-out;
+
     }
 
     .header__logo__div:hover {
@@ -58,11 +75,10 @@
     .header__logo {
         width: 14rem;
         position: relative;
-        top: 3rem;
-        left: 3rem;
+
     }
 
-    .header__rotarLogo{
+    .header__rotarLogo {
         transform: rotate(60deg);
     }
 
@@ -75,16 +91,14 @@
 
     .header__redesSociales {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-end;
-        padding-bottom: 3rem;
-        padding-right: 8.5rem;
         padding-top: 1rem;
     }
 
     .header__redesSociales__logo {
         width: 3rem;
-        border-radius: 2rem;
+        border-radius: 1rem;
         padding: 5px;
         transition: transform 0.3s ease-in-out;
     }
@@ -94,11 +108,15 @@
     }
 
     .header__imagen__principal {
-        gap: 2rem
+        gap: 2rem;
+        padding: 2rem 0rem 1rem 0rem;
     }
 
     .logoPrincipal {
-        height: 7rem;
+        height: 12rem;
+        background-color: #EDE5D1;
+        border-radius: 2rem;
+        border: 1px solid #7b8bff;
     }
 
 
@@ -156,14 +174,14 @@
         color: #09959B;
     }
 
-    .main__botonera__letra{
+    .main__botonera__letra {
         font-family: 'Nunito';
         font-weight: bold;
         padding-top: 0.3rem;
     }
-    
 
-    .main__img__navBar{
+
+    .main__img__navBar {
         width: 4rem;
     }
 
@@ -184,7 +202,7 @@
         ;
     }
 
-    .main__modulos__letras{
+    .main__modulos__letras {
         position: relative;
         bottom: 10px;
     }
@@ -217,7 +235,7 @@
 
     }
 
-    .main__modulo3__rotacion{
+    .main__modulo3__rotacion {
         transform: rotate(20deg);
 
     }
@@ -240,10 +258,14 @@
         transition: transform 0.3s ease-in;
     }
 
+    .espaciado {
+        line-height: 1.4;
+    }
+
     .main__modulo5 {
         border: 2px #09959B solid;
         border-radius: 5rem;
-        width: 9rem;
+        width: 8rem;
         height: 7rem;
         align-content: center;
         display: flex;
@@ -340,7 +362,11 @@
     .footer__hijo {
         padding: 10px;
     }
-
+    .footer__logo {
+        width: 14rem;
+        position: relative;
+        left: 3rem;
+    }
 
 
     .footer__redesSociales {
