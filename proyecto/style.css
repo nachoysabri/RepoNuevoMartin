@@ -22,7 +22,9 @@
     padding-left: 10rem;
 }
 
-
+.rounded{
+    border-radius: 0.4rem;
+}
 
 
 .center {
@@ -84,7 +86,7 @@
 
 .header__titulo {
     /* font-family: 'Nunito', sans-serif; */
-    color: #09959B;
+    color: #122d95;
     font-family: 'Alegreya', serif;
     font-weight: 500;
 }
@@ -305,6 +307,8 @@ main {
 
 .main__descripcion {
     text-align: justify;
+    line-height: 2;
+    font-size: 1.2rem;
 }
 
 .main__imagenSaludable {
@@ -381,7 +385,7 @@ main {
 
 .footer__redesSociales__logo {
     width: 3rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 5px;
     transition: transform 0.3s ease-in-out;
 }
